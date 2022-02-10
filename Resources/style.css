@@ -1,6 +1,23 @@
 body {
-  font-family: "Lora", serif;
+  font-family: "Lora", serif;   
 }
+
+body {
+    background-image: url("/Resources/Images/bg_bggenerator_com (1).jpg");
+}
+.container {
+    background-color: rgba(255, 255, 255, 0.80);
+    border-radius: 25px;
+    
+}
+.form-box{
+    max-width: 400px;
+    min-height: 300px;
+}
+
+
+
+
 
 h1,
 h2,
