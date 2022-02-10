@@ -3,7 +3,7 @@ body {
 }
 
 body {
-    background-image: url("/Resources/Images/bg_bggenerator_com (1).jpg");
+    background: url("/Resources/Images/bg_bggenerator_com (1).jpg") no-repeat fixed;
 }
 .container {
     background-color: rgba(255, 255, 255, 0.80);
