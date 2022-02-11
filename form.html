@@ -68,7 +68,9 @@
     <div class="d-flex justify-content-center">
       <form class="form-horizontal">
         <fieldset>
-          <!-- Form Name -->
+          
+
+<!-- Form Name -->
           <legend><div class=text-center><h1>Mister Tasker</h1></div></legend>
 
           <!-- Name Text input-->
@@ -88,7 +90,7 @@
             </div>
           </div>
 
-          <!-- Assignee Text input-->
+<!-- Assignee Text input-->
           <div class="form-group">
             <label class="col-auto control-label" for="assigntextinput"
               >Assigned to</label
@@ -106,7 +108,7 @@
             </div>
           </div>
 
-          <!-- Project Name Text input-->
+<!-- Project Name Text input-->
           <div class="form-group">
             <label class="col-auto control-label" for="projecttextinput"
               >Project Name</label
@@ -124,19 +126,16 @@
             </div>
           </div>
 
-          <!-- Description Text area -->
+<!-- Description Text area -->
           <div class="form-group">
             <label class="col-auto control-label" for="textarea"
-              >Description</label
-            >
+              >Description</label>
             <div class="col-auto">
-              <textarea class="form-control" id="textarea" name="textarea">
-Describe the project tasks</textarea
-              >
+              <textarea class="form-control" id="textarea" name="textarea">Describe the project tasks</textarea>
             </div>
           </div>
 
-          <!-- To Do/Review/Complete Radio  -->
+<!-- To Do/Review/Complete Radio  -->
           <div class="form-group">
             <label class="col-auto control-label" for="radios">Status</label>
             <div class="col-auto">
@@ -171,11 +170,29 @@ Describe the project tasks</textarea
               </label>
             </div>
           </div>
-
-          <!-- Button (Double) -->
+<!-- Sixth input field / date -->
+      <div class="container d-flex">
+        <div class="form-row" id="taskFormRow7">
+          <div class="d-none d-md-block col-md-1"></div>
+          <div class="col-md-10">
+              <div class="form-group form-inline">
+                  <label class="col-sm-4" for="iDate">Due Date: </label>
+                  <input type="date" id="dDate" class="form-control col-sm-8"   
+                      name="dDate" tabindex="6" required />
+                  <div class="invalid-feedback" id="invalidDateMsg">
+                      Please enter a valid date. Date can't be blank or in the past. 
+                  </div>
+              </div>
+          </div>
+          <div class="d-none d-md-block col-md-1"></div>
+      </div>
+</div>
+<div class="row"><br></div>
+<div class="row"><br></div>
+<!-- Button (Double) -->
         <div class="justify-content-center d-flex"
           <div class="form-group">
-            <label class="col-auto control-label" for="button1id"></label>
+            <label class=" control-label" for="button1id"></label>
             <div class="col-auto">
               <button id="button1id" name="button1id" class="btn btn-success">
                 Submit
@@ -184,14 +201,27 @@ Describe the project tasks</textarea
               <button id="button2id" name="button2id" class="btn btn-danger">
                 Reset
               </button>
-              <div><br></div>
+              <div class="row"><br></div>
             </div>
         </div>
+
+       
+
           </div>
         </fieldset>
       </form>
     </div>
   </div>
+  <div class="row"><br></div>
+  <div class="row"><br></div>
+
+
+
+
+
+
+
+
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
