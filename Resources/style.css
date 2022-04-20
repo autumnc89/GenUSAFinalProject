@@ -1,9 +1,17 @@
 body {
-  font-family: "Montserrat", sans-serif; !important;
+  font-family: "Montserrat", sans-serif, !important;
 }
 
 body {
-    background: url("Resources/Images/bg_bggenerator_com (1).jpg") no-repeat fixed;
+    background: url("Resources/Images/bg_bggenerator_com (1).jpg");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: inherit;
+    font-size: 16px;
+    width: auto;
+    height: 100%
 }
 .container {
     background-color: rgba(255, 255, 255, 0.80);
