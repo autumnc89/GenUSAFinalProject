@@ -3,7 +3,7 @@ body {
 }
 
 body {
-    background: url("Resources/Images/bg_bggenerator_com (1).jpg");
+    background: url("./Resources/Images/bg_bggenerator_com (1).jpg");
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
